@@ -227,4 +227,8 @@ async def startup():
 
 if __name__ == '__main__':
     asyncio.run(startup())
+<<<<<<< HEAD
     app.run(host='0.0.0.0', port=5080, debug=True)
+=======
+    app.run(host='0.0.0.0', port=5020, debug=True)
+>>>>>>> c320805 (Add project files including proto folder)
